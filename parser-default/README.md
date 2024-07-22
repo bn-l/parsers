@@ -11,10 +11,14 @@ You can see this parser in action on [Netlify](https://parser-default.netlify.ap
 ### `modifierDefaults`?: __Modifier.Defaults__
 You can specify default values for built-in modifiers using this prop. Configuration is available for these modifiers:
 
-`number`?: __Intl.NumberFormatOptions__\
-`date`?: __Intl.DateTimeFormatOptions__\
-`ago`?: __Intl.RelativeTimeFormatOptions & { format?: Intl.RelativeTimeFormatUnit | 'auto' }__
+`number`?: __Intl.NumberFormatOptions__
+<br>
+`date`?: __Intl.DateTimeFormatOptions__
+<br>
+`ago`?: __Intl.RelativeTimeFormatOptions & { format?: Intl.RelativeTimeFormatUnit | 'auto' }__ 
+<br>
 `currency`?: __Intl.NumberFormatOptions & { ratio?: number }__
+<br>
 
 ### `customModifiers`?: __Record<string, Modifier.T>__
 You can use this property to include your own set of modifiers.
